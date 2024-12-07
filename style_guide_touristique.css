@@ -1,0 +1,88 @@
+body {
+    background-color: #d3d3d3;  
+    margin: auto;
+    width: 900px;  
+    line-height: 20px;  
+    text-align: justify;  
+    font-family: Arial, sans-serif;  
+}
+
+h1 {
+    text-transform: uppercase; 
+    font-size: 2.5em;  
+    color: rgb(216, 52, 115);  
+    font-family: "Comic Sans MS", sans-serif; 
+    font-weight: bolder;  
+    text-align: center; } 
+
+h3 {
+    font-weight: bold;
+    font-size: 18pt;
+    color: hwb(221 40% 11%); 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+h4 {
+    font-size: 15pt;  
+    color: hwb(288 6% 51%);  
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+p {
+    font-size: 1.2em;  
+}
+
+div {
+    list-style: none;  
+    padding: 0px;} 
+
+div li:before {
+    content: '\2605';  
+    margin: 0 1em;  }
+
+
+aside {
+    flex: 1;
+    background-color: hwb(187 65% 31%);  
+    padding: 20px;  
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+#maps {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.navbar {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    background-color: #edc1b1;  
+    padding: 10px 150px; 
+    margin-top: 10px;  
+    position: absolute;
+    top: 5%;  
+    width: auto;  
+    max-width: 90%; 
+}
+
+
+.navbar a {
+    text-decoration: none;  
+    color: white;  
+    margin: 0 15px;  
+    font-size: 18px;  
+    font-weight: bold;  
+}
+
+
+.navbar a:hover {
+    color: #ff5722;  
+    border-bottom: 2px solid #ff5722;  
+}

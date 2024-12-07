@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Contact</title>
+    <link rel="stylesheet" href="style.contact.css">
+</head>
+
+<body>
+    
+    <nav class="navbar">
+        <a href="accueil.html">Accueil</a>
+        <a href="guide_touristique.html">Guide Touristique</a>
+        <a href="contact.html">Contact</a>
+        <a href="Hotels.html">Hotels</a>
+    </nav>
+
+
+    <form action="">
+        <h4>Contact</h4>
+        <hr>
+        <div class="name-field">
+            <div>
+                <label>Nom</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Prénom</label>
+                <input type="text">
+            </div>
+        </div>
+        
+        <div>
+            <input type="checkbox" name="homme" id="homme" />
+            <label for="homme">Homme</label><br />
+            <input type="checkbox" name="femme" id="femme" />
+            <label for="femme">Femme</label><br />
+        </div>
+
+        <label>Adresse Mail</label>
+        <input type="email">
+        
+        <label>Mot de passe</label>
+        <input type="password">
+        
+        <div>
+            <label>Numéro de téléphone</label>
+            <input type="tel" />
+        </div>
+        
+        <div>
+            <label>Date de naissance</label>
+            <input type="date" />
+        </div>
+
+        <label>Veuillez indiquer votre âge</label><br>
+        <input type="radio" name="age" value="moins15" id="moins15" />
+        <label for="moins15">Moins de 15 ans</label><br />
+        <input type="radio" name="age" value="medium15-25" id="medium15-25" />
+        <label for="medium15-25">15-40 ans</label><br />
+        <input type="radio" name="age" value="medium25-40" id="medium25-40" />
+        <label for="medium25-40">40 ans-plus </label>
+
+        <nav>
+            <label for="pays">Dans quel pays habitez-vous ?</label><br />
+            <select name="pays" id="pays">
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value="italie">Italie</option>
+                <option value="maroc">Royaume-Uni</option>
+            </select>
+        </nav>
+        
+        <label for="region">Où donner la région Tunisienne ?</label>
+        <input type="search" />
+        
+        <br>
+        <hr>
+        <input type="submit" value="Envoyer" />
+    </form>
+    
+
+</body>
+
+</html>

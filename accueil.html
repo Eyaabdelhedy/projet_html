@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accueil guide</title>
+    <link rel="stylesheet" href="style.accueil.css">
+</head>
+<body>
+    <nav class="navbar">
+       
+        <div class="nav-links">
+            <ul>
+
+                <li class="active"><a href="guide_touristique.html">guide_touristique</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="Hotels.html">Hotels</a></li>
+              
+            </ul>
+        </div>
+        <img src="ressources/image/rounded-menu-button-free-png.webp" alt="menu" width="4" class="menu">
+    </nav>
+    <header></header> 
+</body>
+<script>
+    const menu = document.querySelector(".menu")
+    const navlinks= document.querySelector(".nav-links")
+    menu.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
